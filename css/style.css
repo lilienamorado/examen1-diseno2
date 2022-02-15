@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;700&display=swap');
+:root{
+	--fondo-naranja:#f75903;
+	--titulos:#171717;
+	--contenido:#171717;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--contenido);
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: transparent;
+	position: absolute;
+	width: 100%;
+	border-bottom: 0px solid rgba(255,255,255,0.30);
+	text-align: center;
+	padding: 10px 0px;
+}
+
+#hero{
+	background-image: url("../img/hero-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: #fff;
+	height: 100vh;
+	padding:100px 0;
+}
+#hero h5{
+	font-size: 80px;
+	letter-spacing: 1px;
+}
+#hero h1{
+	font-size: 20px;
+	font-weight: 300;
+}
+#hero p{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.overlay-hero{
+	background-color: rgba(0,0,0,0.05);
+	padding: 15% 0;
+	height: 100vh;
+}
+
+#info{
+	background-color: #ffffff;
+	padding: 60px;
+	text-align: center;	
+}
+
+#info p{
+	font-size: 15px;
+	color: var(--contenido);
+}
+
+
+#info h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 20px 0;
+	color: var(--títulos);
+	
+	
+}
+
+#mambu{
+	background-image: url("../img/mambu-case-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+	padding: 12% 0;
+	text-align: left;
+	
+	
+}
+
+#mambu p {
+padding: 20px 0px;
+font-size: 15px;
+color: #ffffff;
+}
+
+#mambu h5{
+	color: #ffffff;
+	font-size: 13px;
+	}
+
+#mambu h5 span{
+	color: var(--fondo-naranja);
+	}
+
+#work{
+	background-color: #ffffff;
+	padding: 60px;
+	text-align: left;	
+}
+
+#work p{
+	font-size: 15px;
+	color: var(--contenido);
+}
+
+
+#work h5{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 20px 0;
+	color: var(--títulos);	
+}
+
+#work h1{
+	font-size: 40px;
+	padding: 40px 0;
+	color: var(--títulos);
+	text-align: center;
+}
+.overlay-header{
+	background-color: rgba(0,0,0,0.30);
+	padding: 15% 0;
+	height: 100vh;
+}
+
+footer{
+	background-color: #242424;
+	padding: 30px 0;	
+	font-size: 10px;
+	color:#414141;
+}
+
+
+footer .list-unstyled{
+	color:#414141;
+	padding: 1px 0;
+	text-align: right;
+	font-size: 30px;	
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+
+
